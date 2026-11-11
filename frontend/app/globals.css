@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+  background: #f7f8f5;
+  color: #17241d;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(ellipse at 75% 4%, rgb(219 236 218 / 34%), transparent 34rem),
+    #f7f8f5;
+}
+
+button,
+textarea {
+  font: inherit;
+}
+
+::selection {
+  background: #d7edc9;
+  color: #17241d;
+}
